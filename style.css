@@ -9,10 +9,12 @@ body{
 }
 
 img{ 
-    max-width: full-width;
+    max-width: 100%;
+    height: auto;
+    display: block;
     padding: 0;
     height: auto;
-    align-items: center;
+    margin: auto;
 }
 
 h1{
