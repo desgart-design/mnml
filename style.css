@@ -9,20 +9,11 @@ body{
 }
 
 img{ 
-    max-width: 600px;
+    max-width: full-width;
     padding: 0;
     height: auto;
     align-items: center;
 }
-
-b{ 
-        background-color: #cccccc; /* Used if the image is unavailable */
-        height: 500px; /* You must set a specified height */
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */     
-}
-
 
 h1{
     font-size: 22px;
@@ -31,8 +22,6 @@ h1{
 a{
     text-decoration: none;
 }
-
-
 
 section, footer{
     display: flex;
@@ -69,7 +58,7 @@ section.links .link-items a{
       50deg,
       rgba(255, 255, 255, 0.4) 12%,
       rgba(255, 255, 255, 0.1) 77%);
-    background-blend-mode: ;
+    background-blend-mode: soft-light;
     box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
