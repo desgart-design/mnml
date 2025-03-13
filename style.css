@@ -8,6 +8,19 @@ body{
     font-size: 16px;
 }
 
+.myButton{
+    background:url(./images/but.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:100px;
+    height:100px;
+}
+
+.myButton:active  /* use Dot here */
+{   
+    background:url(./images/but2.png) no-repeat;
+}
+
 img{ 
     max-width: 100%;
     height: auto;
