@@ -1,11 +1,18 @@
 /* URL */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /* COMMONS */
 body{
     padding: 36px;
-    font-family: Roboto;
+    font-family: Oswald;
     font-size: 16px;
-    font-shadow:  3px 3px 5px black;
+    font-shadow:  1px 2px 2px black;
+}
+
+.oswald-own {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: fat;
 }
 
 .myButton{
