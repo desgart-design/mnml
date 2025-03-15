@@ -1,10 +1,9 @@
 /* URL */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /* COMMONS */
 body{
     padding: 36px;
-    font-family: Montserrat;
+    font-family: Roboto;
     font-size: 16px;
 }
 
