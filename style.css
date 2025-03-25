@@ -15,23 +15,6 @@ body{
   font-style: fat;
 }
 
-.myButton{
-    background:url(./images/but.png) no-repeat;
-    cursor:pointer;
-    border:none;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    padding: 0;
-    height: auto;
-    margin: auto;
-}
-
-.myButton:active  /* use Dot here */
-{   
-    background:url(./images/but2.png) no-repeat;
-}
-
 img{ 
     max-width: 100%;
     height: auto;
