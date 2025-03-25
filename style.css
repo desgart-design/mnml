@@ -44,7 +44,7 @@ section, footer{
 /* HEADER */
 section.header img{
     max-width: 120px;
-    border-radius: 50%;
+    border-radius: 12%;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.71);
     padding: 0;
 }
