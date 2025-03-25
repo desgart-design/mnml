@@ -15,11 +15,29 @@ body{
   font-style: fat;
 }
 
+.myButton{
+    background:url(./images/but.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+    height: auto;
+    margin: auto;
+}
+
+.myButton:active  /* use Dot here */
+{   
+    background:url(./images/but2.png) no-repeat;
+}
+
 img{ 
     max-width: 100%;
     height: auto;
     display: block;
     padding: 0;
+    height: auto;
     margin: auto;
 }
 
@@ -42,9 +60,7 @@ section, footer{
 
 /* HEADER */
 section.header img{
-    max-width: 30%;
-    height: auto;
-    display: block;
+    max-width: 120px;
     border-radius: 50%;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.71);
     padding: 0;
@@ -56,9 +72,8 @@ section.links .link-items{
     margin-bottom: 16px;
 }
 section.links .link-items a{
-    max-width: 100%;
-    height: auto;
     display: block;
+    width: 100%;
     border: 1px #000 solid;
     padding: 16px 0;
     text-align: center;
