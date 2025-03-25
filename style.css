@@ -51,10 +51,7 @@ section.header img{
 
 /* LINKS */
 section.links .link-items{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    gap: 2px;
+    display: block;
 }
 section.links .link-items a{
     display: grid;
