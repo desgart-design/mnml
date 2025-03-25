@@ -57,6 +57,10 @@ section.links .link-items{
     gap: 2px;
 }
 section.links .link-items a{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 2px;
     width: 100%;
     border: 1px #000 solid;
     padding: 16px 0;
