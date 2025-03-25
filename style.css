@@ -74,9 +74,7 @@ grid-row-gap: 1px;
 
 section.links .link-items a{
     display: block;
-    width: 100%;
-    height: auto;
-   
+    width: 150px;
     border: 1px #000 solid;
     padding: 16px 0;
     text-align: center;
