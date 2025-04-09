@@ -58,8 +58,8 @@ section.links .link-items{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(4, 1fr);
-grid-column-gap: 1px;
-grid-row-gap: 1px;
+grid-column-gap: 4px;
+grid-row-gap: 4px;
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 2; }
