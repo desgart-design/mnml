@@ -23,7 +23,14 @@ img{
     height: auto;
     margin: auto;
 }
-
+ava{ 
+    max-width: 50%;
+    height: auto;
+    display: block;
+    padding: 0;
+    height: auto;
+    margin: auto;
+}
 h1{
     font-size: 22px;
 }
