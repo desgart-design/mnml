@@ -80,6 +80,7 @@ grid-row-gap: 4px;
 
 
 section.links .link-items a{
+    text-shadow: 2px 1px 4px #ededed;
     display: block;
     width: 150px;
     border: 1px #000 solid;
