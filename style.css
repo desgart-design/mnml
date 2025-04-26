@@ -105,7 +105,8 @@ section.links .link-items a{
     text-align: center;
     color: #000;
     border-radius: 25px;
-    background-color: rgb(255, 195, 134);
+    background-color: #fffff, 0.2;
+    backdrop-filter: 5px;
     transition: transform .4s;
 }
 
