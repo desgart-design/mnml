@@ -71,6 +71,7 @@ grid-row-gap: 4px;
 
 /* COMMONS */
 body{
+    display: block;
     padding: 36px;
     font-family: roboto;
     font-size: 36px;
