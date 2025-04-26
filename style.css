@@ -78,15 +78,41 @@ grid-row-gap: 4px;
 .div7 { grid-area: 4 / 1 / 5 / 2; }
 .div8 { grid-area: 4 / 2 / 5 / 3; }
 
+/* COMMONS */
+body{
+    padding: 36px;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+/* HEADER */
+section.header img{
+    max-width: 120px;
+    border-radius: 50%;
+}
+
+/* LINKS */
+section.links .link-items{
+    width: 75%;
+    margin-bottom: 16px;
+}
 
 section.links .link-items a{
-/* From https://css.glass */
-background: rgba(255, 255, 255, 0.12);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+    display: block;
+    width: 100%;
+    border: 1px #000 solid;
+    padding: 16px 0;
+    text-align: center;
+    color: #000;
+    border-radius: 25px;
+    background-color: rgb(255, 195, 134);
+    transition: transform .4s;
+}
+
+section.links .link-items a:hover{
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
 }
 
 /* FOOTER */
