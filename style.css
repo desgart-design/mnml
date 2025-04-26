@@ -41,6 +41,7 @@ a{
 
 /* HEADER */
 section.header img{
+    display: block;
     max-width: 120px;
     border-radius: 12%;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.71);
@@ -49,7 +50,7 @@ section.header img{
 
 /* LINKS */
 section.links .link-items{
-    display: block;
+    display: grid;
 }
 
 .parent {
