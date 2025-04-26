@@ -39,15 +39,6 @@ a{
     text-decoration: none;
 }
 
-section, footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 600px;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
 /* HEADER */
 section.header img{
     max-width: 120px;
@@ -105,7 +96,8 @@ section.links .link-items a{
     text-align: center;
     color: #000;
     border-radius: 25px;
-    background-color: #fffff, 0.2;
+    background: #f2f2f2;
+background: linear-gradient(nulldeg,rgba(242, 242, 242, 0.39) 0%, rgba(210, 206, 206, 1) 100%, rgba(209, 205, 205, 0.34) 100%);
     backdrop-filter: 5px;
     transition: transform .4s;
 }
