@@ -74,6 +74,9 @@ body{
     padding: 36px;
     font-family: roboto;
     font-size: 36px;
+      font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: fat;
 }
 
 /* HEADER */
