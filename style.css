@@ -94,7 +94,7 @@ section.links .link-items{
 
 section.links .link-items a{
      text-shadow: 2px 1px 4px #ededed;
-    display: block;
+    display: grid;
     width: 150px;
     border: 1px #000 solid;
     padding: 16px 0;
