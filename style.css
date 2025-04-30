@@ -17,12 +17,13 @@ body{
 
 img{ 
     max-width: 100%;
-    height: auto;
     display: block;
+    height: auto;
     padding: 0;
     height: auto;
     margin: auto;
 }
+
 ava{ 
     max-width: 50%;
     height: auto;
@@ -94,13 +95,13 @@ section.links .link-items{
 }
 
 section.links .link-items a{
-     text-shadow: 2px 1px 4px #ededed;
+    text-shadow: 2px 1px 4px #ededed;
     display: grid;
-    width: 150px;
     border: 1px #000 solid;
     padding: 16px 0;
     text-align: center;
     width: 100%;
+    height: auto;
     color: #000;
     border-radius: 25px;
     transition: transform .4s;
