@@ -61,7 +61,7 @@ section.links .link-items{
     margin-bottom: 16px;
 }
 section.links .link-items a{
-    display: block;
+    display: grid;
     width: 100%;
     border: 1px #000 solid;
     padding: 16px 0;
