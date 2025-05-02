@@ -4,10 +4,36 @@
 
 
 body{
+<<<<<<< Updated upstream
     padding: 6px;
     font-family: Montserrat;
     font-weight: 800;
     font-size: 22px;
+=======
+    padding: 36px;
+    font-family: Oswald;
+    font-size: 16px;
+    text-shadow: 1px 2px 2px black;
+}
+
+.oswald-own {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: fat;
+}
+
+.myButton{
+    background:url(./images/but.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+    height: auto;
+    margin: auto;
+>>>>>>> Stashed changes
 }
 
 .myButton:active  /* use Dot here */
@@ -84,6 +110,26 @@ section.header img{
     
     
 /* LINKS */
+.container {
+    grid-template-columns: [first] 40px [line2] 60px [line3] auto [col4-start] 60px [five] 40px [end];
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+  }
+
+.item-a {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: row1-start;
+    grid-row-end: row1-end;
+  }
+
+.item-b {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: row1-start;
+    grid-row-end: row1-end;
+  }
+
+
 section.links .link-items{
     display: grid;
     width: 100%;
