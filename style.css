@@ -1,47 +1,17 @@
 /* URL */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
-body{
-<<<<<<< Updated upstream
-    padding: 6px;
-    font-family: Montserrat;
-    font-weight: 800;
-    font-size: 22px;
-=======
-    padding: 36px;
-    font-family: Oswald;
-    font-size: 16px;
-    text-shadow: 1px 2px 2px black;
+body
+{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
-.oswald-own {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: fat;
-}
-
-.myButton{
-    background:url(./images/but.png) no-repeat;
-    cursor:pointer;
-    border:none;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    padding: 0;
-    height: auto;
-    margin: auto;
->>>>>>> Stashed changes
-}
-
-.myButton:active  /* use Dot here */
-{   
-    background:url(./images/but2.png) no-repeat;
-}
-
-img{ 
+img
+{ 
     max-width: 100%;
     height: auto;
     display: block;
@@ -50,15 +20,30 @@ img{
     margin: auto;
 }
 
-h1{
+flitz
+{ 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+    height: auto;
+    margin: auto;
+}
+
+h1
+{
     font-size: 22px;
 }
 
-a{
+a
+{
     text-decoration: none;
+    text-shadow: 1x 1px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
-section, footer{
+section, footer
+{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,21 +53,22 @@ section, footer{
 }
 
 /* HEADER */
-section.header img{
+section.header img
+{
     max-width: 120px;
     border-radius: 50%;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.71);
     padding: 0;
 }
 
-.parent {
+.parent
+{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(12, 1fr);
     grid-column-gap: 18px;
     grid-row-gap: 1px;
-    }
-    
+}
     .div1 { grid-area: 1 / 1 / 2 / 3; }
     .div2 { grid-area: 1 / 3 / 2 / 5; }
     .div3 { grid-area: 2 / 1 / 3 / 3; }
@@ -107,8 +93,7 @@ section.header img{
     .div22 { grid-area: 11 / 3 / 12 / 5; }
     .div23 { grid-area: 12 / 1 / 13 / 3; }
     .div24 { grid-area: 12 / 3 / 13 / 5; }
-    
-    
+        
 /* LINKS */
 .container {
     grid-template-columns: [first] 40px [line2] 60px [line3] auto [col4-start] 60px [five] 40px [end];
@@ -129,16 +114,15 @@ section.header img{
     grid-row-end: row1-end;
   }
 
-
 section.links .link-items{
     display: grid;
-    width: 100%;
+    width: auto;
     height: auto;
     margin-bottom: 16px;
 }
 section.links .link-items a{
     display: grid;
-    width: 100%;
+    width: 200px;
     height: auto;
     border: 1px #000 solid;
     padding: 16px 0;
