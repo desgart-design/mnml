@@ -67,7 +67,7 @@ section.header img
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(12, 1fr);
     grid-column-gap: 18px;
-    grid-row-gap: 1px;
+    grid-row-gap: 18px;
 }
     .div1 { grid-area: 1 / 1 / 2 / 3; }
     .div2 { grid-area: 1 / 3 / 2 / 5; }
@@ -122,7 +122,7 @@ section.links .link-items{
 }
 section.links .link-items a{
     display: grid;
-    width: 200px;
+    width: auto;
     height: auto;
     border: 1px #000 solid;
     padding: 16px 0;
@@ -133,7 +133,7 @@ section.links .link-items a{
     background: linear-gradient(
       50deg,
       rgba(255, 255, 255, 0.2) 12%,
-      rgba(255, 255, 255, 0.1) 77%);
+      rgba(250, 234, 211, 0.4) 77%);
     box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
