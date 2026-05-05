@@ -10,6 +10,15 @@ body
     font-variation-settings: "wdth" 100;
 }
 
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 img
 { 
     max-width: 100%;
